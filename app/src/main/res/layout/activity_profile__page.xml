@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.mohamedgomaa.book_online.Profile_Page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/Progress12345"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Img_profile"
+    />
+        <TextView
+            android:onClick="Change_Img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="change"
+            android:textColor="#f00"
+            android:textSize="15sp"
+            android:textColorLink="@color/colorAccent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/name"
+            android:paddingLeft="15sp"
+            android:layout_marginTop="60sp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/draw_1235"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:onClick="change_profile_name"
+            android:textStyle="bold"
+            android:layout_marginTop="60sp"
+            android:text="change"
+            android:layout_weight=".2"
+            android:paddingRight="10sp"
+            android:padding="20sp"
+            android:textAlignment="gravity"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change password"
+        android:onClick="change_pass"
+
+        android:layout_marginBottom="20sp"
+        />
+</LinearLayout>

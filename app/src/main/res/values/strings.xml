@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nourny</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show__video">Show_Video</string>
+    <string name="title_activity_show__all__categories">Show_ALL_Categories</string>
+    <string name="title_activity_show__one__item">Show_One_Item</string>
+    <string name="title_activity_show_video2">ShowVideo2</string>
+    <string name="title_activity_favorite_layer">FavoriteLayer</string>
+</resources>

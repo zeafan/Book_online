@@ -1,0 +1,200 @@
+{
+  "project_info": {
+    "project_number": "238438627625",
+    "firebase_url": "https://coprpject2345.firebaseio.com",
+    "project_id": "coprpject2345",
+    "storage_bucket": "coprpject2345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238438627625:android:35445753dc0bf0e4",
+        "android_client_info": {
+          "package_name": "com.app.mohamedgomaa.v136_admob_banner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238438627625-dkgksocaab5ac7u19ugtn5t3og7utg70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACfJEU5-q71iYwsS0vErB_VB6upGav3GQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238438627625:android:5b50cabde59c34c9",
+        "android_client_info": {
+          "package_name": "com.app.mohamedgomaa.takeimagebycamera_gallery_and_save_folder_on_sdcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238438627625-ui0ql3fredehgm0h2cl3ue2j1jku7crm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.mohamedgomaa.takeimagebycamera_gallery_and_save_folder_on_sdcard",
+            "certificate_hash": "e5ef75001cb61d42294aacccfe05e25597206d59"
+          }
+        },
+        {
+          "client_id": "238438627625-dkgksocaab5ac7u19ugtn5t3og7utg70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACfJEU5-q71iYwsS0vErB_VB6upGav3GQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238438627625-dkgksocaab5ac7u19ugtn5t3og7utg70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238438627625:android:760ad46a326c0c1f",
+        "android_client_info": {
+          "package_name": "com.app.mohamedgomaa.nawarny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238438627625-nplkpq6srfl41bucfr0i8pm5d3o4rbff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.mohamedgomaa.nawarny",
+            "certificate_hash": "817b1b1f91622756d0308756570bb6d24c4461af"
+          }
+        },
+        {
+          "client_id": "238438627625-6g123921o85nh1r93v3rjpouuss110i9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.mohamedgomaa.nawarny",
+            "certificate_hash": "e5ef75001cb61d42294aacccfe05e25597206d59"
+          }
+        },
+        {
+          "client_id": "238438627625-dkgksocaab5ac7u19ugtn5t3og7utg70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACfJEU5-q71iYwsS0vErB_VB6upGav3GQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238438627625-dkgksocaab5ac7u19ugtn5t3og7utg70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238438627625:android:2d2c29188252c42f",
+        "android_client_info": {
+          "package_name": "com.app.mohamedgomaa.a212_native_ads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238438627625-dkgksocaab5ac7u19ugtn5t3og7utg70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACfJEU5-q71iYwsS0vErB_VB6upGav3GQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238438627625:android:20664858a2cc5e71",
+        "android_client_info": {
+          "package_name": "com.app.mohamedgomaa.book_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238438627625-dkgksocaab5ac7u19ugtn5t3og7utg70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACfJEU5-q71iYwsS0vErB_VB6upGav3GQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

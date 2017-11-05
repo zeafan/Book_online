@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0BB990"
+    tools:context="com.app.mohamedgomaa.book_online.Register_Page">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/new_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:id="@+id/new_user_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/new_user_pass"
+        android:inputType="textPassword"
+        android:layout_marginLeft="47dp"
+        />
+        <ImageView
+            android:id="@+id/eye"
+            android:layout_width="50sp"
+            android:layout_height="30sp"
+            android:src="@drawable/t_eye"
+            android:layout_gravity="top"
+            android:onClick="eye"
+
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/Email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_register"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:onClick="BtnAccount"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp" />
+<TextView
+    android:layout_marginTop="100sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="upload your profile image"/>
+        <ProgressBar
+            android:id="@+id/Progress12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/image_register" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_reg"
+        android:onClick="userReg"
+        />
+</LinearLayout>
